@@ -1,0 +1,150 @@
+body
+{font-family: Istok Web;
+font-size: 1em;
+background:url('background_all.png');
+}
+
+
+#logo_img{width: 100%;}
+
+#about_us_whole {float: left; width: 33%;}
+#shop_whole {float: left; width: 33%}
+#contact_us_whole {float: left; width: 33%}
+
+#menu_bar {padding-left: 10%; font-size: .3em}
+
+.img {max-width: 50%; max-height: 50%;}
+
+#quote_hmpg {font-size: .6em; text-align: center; padding-top: 3%;
+padding-bottom: 6%; font-family: mistral; color: #94ae5b;}
+
+#nav {width: 100%; background:url('NAV_BAR1.png') no-repeat; height: 30%;
+visibility: hidden;}
+
+#links { padding-left: 20%; font-family: Istok Web; padding-top: 2%;}
+
+.nav_link {color: #f8f8f8; font-size: .4em; padding: 3%; }
+
+
+#quote_abtpg {font-family: mistral; color: #94ae5b ;font-size: .7em; 
+text-align: right; 
+ padding-right: 3%; ; padding-bottom: 1%;}
+ 
+ #green {background: #def1b5}
+
+#bub {float: left; padding-left: 20%; padding-top: 1%;}
+
+#abt_text {font-size: .2em;  padding-left: 55%; 
+ padding-bottom: 3%; padding-top:3%; text-justify: inherit;}
+
+#pg3{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+p{text-align: justify;}
+
+#pg4 {
+font-size: 18px;
+padding: 20px;
+height: 100%;;
+}
+
+#map {float: left; padding-top: 30px; padding-left: 60px;}
+#maptext {text-align: center;}
+
+#contact {float: left; padding-left:60px; padding-top: 40px; width: 275px;}
+
+input[type=text] {
+height: 25px; 
+width: 275px; 
+border: 1px solid #848484; 
+padding-left: 40px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+input[type=email] {
+height: 25px; 
+width: 275px; 
+border: 1px solid #848484; 
+padding-left: 40px; 
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+  
+input[type="text"]:hover {border:1px solid #cccccc; }
+input[type="text"]:focus {box-shadow:0 0 2px #FFFE00; }
+input { display: block; }
+
+#txtName {background: url(images/1.png) no-repeat 10px 4px #FFF;}
+#txtEmail {background: url(images/2.png) no-repeat 10px 4px #FFF;}
+#txtPhone {background: url(images/3.png) no-repeat 10px 4px #FFF;}
+#txtCountry {background: url(images/4.png) no-repeat 10px 4px #FFF;}
+#txtComments {background: url(images/5.png) no-repeat 10px 4px #FFF; height: 100px; width: 275px; overflow-y: scroll; border: 1px solid #848484; 
+padding-left: 40px; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;}
+
+#contact_form div div{width: 275px; margin-top: 5px; text-align: right; }
+#contact_form div#entry input {border: 1px solid black; margin-left: 0px;}
+#contact_form div#entry textarea {border: 1px solid black; margin-left: 0px;}
+#contact_form .error {background: pink; border: 1px solid red; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#contact_form div#entry .error  input {border: 1px solid red; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#contact_form div#entry .error  textarea {border: 1px solid red; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+
+#share_bar
+{background:url('./images/background_green.png');
+background-size:contain;
+font-family: Istok Web;
+font-size: 1em;
+color: #f8f8f8;
+height: 28%;
+}
+
+.big_txt {font-size: .25em; display: block;
+float: left; width: 33%; text-align: center; }
+
+.sm_txt {font-size: .1em; display: block;
+float: left; width: 33%; text-align: center;}
+
+.btn {float: left; width: 33%; text-align: center; margin-top: 4px; }
+
+
+
+#tweet_img {min-width: 60px;}
+#fb_img {min-width: 60px;}
+#news_img {min-width: 60px; max-width: 33%;}
+
+
+#thanks_text {font-size: .2em; float: right; margin-right: 9%; margin-top: 15px;
+ display: none; color: #f8f8f8}
+
+#email_sub {
+height: 25px; 
+width: 150px; 
+padding-left: 10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+display: block;
+}
+
+#footer {background: #8b4084; height: 8%;}
+
+@media screen and (max-width: 800px) 
+{
+.big_txt {display:none;}
+.sm_txt {display:none;}
+}
+
+
+@media screen and (max-width: 500px)
+{
+.btn {margin-top: -4px;}
+#share_btn {display:none;}
+#tweet_btn {display: none;}
+#email_input {display: none;}
+#arrow_btn {display: none;}
+}
